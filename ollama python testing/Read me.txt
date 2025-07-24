@@ -1,0 +1,17 @@
+the python ollama program is the original program I used to test how to get ollama to work with pyton
+
+ollama remember history is the same but the llm with be able to remember the history of the messages
+i give it, it does that by returning a copy of the history with each prompt
+
+ollama summarize history also remembers history but has the ai summarize each message before its added to
+the history, making it so that the history will be shorter but contain necessary info for the llm
+to remember past conversation history, since it summarizes the history will be shorter
+
+2 ai talking is a test to have 2 ai talk back and forth each with different behavior prompts and
+histories to simulate a real conversation
+
+pals system 1 is a prototype of the pals system where the program simply asks the ai to come up with a 
+queston on a given topic at a specific difficulty between 1-10. it will then ask the user for a  response
+and ask the ai if the user was right or wrong then adjust difficulty from there
+
+
