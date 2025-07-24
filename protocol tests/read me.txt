@@ -1,0 +1,20 @@
+each program that starts with ollama is a program that simulates multiple conversations
+between an ollama llm. there all the same except they use a different ollama model
+
+theres 5 different scenarios, each is tested with 3 different tempuratures for the llm.
+tempurature is a setting that determines how random or creative the llm can be
+
+
+there are then 3 different checks for each message the ais return, each message is checked for 
+sentiment, empathy, and coherence.
+
+then each program makes a json file for all the data of each message, and a histories file
+so i can read the actual conversations
+
+
+
+the put data in csv file simply takes all 3 json files and makes a csv file thats organized
+
+the graphchecks program looks through the data and creates graphs of ratings vs temp / model size / 
+time in conversation to find correlations
+
